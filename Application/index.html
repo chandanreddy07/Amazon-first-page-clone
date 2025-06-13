@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amazon Style Page</title>
+    
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <!-- Google Font: Poppins -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Your CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <div class="logo">
+      <img
+        src="https://th.bing.com/th/id/OIP.F6wPVO7JQpBXDlUox49-PwHaEz?w=255&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
+        alt="Amazon Logo"
+        class="logo-img"
+      />
+    </div>
+
+    <input type="text" placeholder="Search products..." />
+
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+  </div>
+
+  <div class="menu-options" id="menuOptions">
+    <ul>
+      <li><i class="fas fa-box"></i> My Orders</li>
+      <li><i class="fas fa-heart"></i> Wishlist</li>
+      <li><i class="fas fa-user"></i> Account</li>
+      <li><i class="fas fa-sign-out-alt"></i> Logout</li>
+    </ul>
+  </div>
+
+  <!-- Product Section -->
+  <div class="product-container">
+
+    <div class="product-card">
+      <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5761/5761208_rd.jpg" alt="Wireless Headphones" />
+      <div class="product-title">Wireless Headphones</div>
+      <div class="product-price">₹1,299</div>
+      <div class="product-rating">★★★★☆</div>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://th-i.thgim.com/public/incoming/j66clw/article66194752.ece/alternates/FREE_1200/W3.jpg" alt="Smart Watch" />
+      <div class="product-title">Smart Watch</div>
+      <div class="product-price">₹2,499</div>
+      <div class="product-rating">★★★☆☆</div>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://ortizan.com/wp-content/uploads/2022/06/71W9bhREdoL._AC_SL1500_.jpg" alt="Bluetooth Speaker" />
+      <div class="product-title">Bluetooth Speaker</div>
+      <div class="product-price">₹999</div>
+      <div class="product-rating">★★★★★</div>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71a8QJOxljS.jpg" />
+      <div class="product-title">Wireless KeyBoard</div>
+      <div class="product-price">₹1,499</div>
+      <div class="product-rating">★★★★☆</div>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/91hHfRZkLMS._AC_SL1500_.jpg" alt="Laptop Backpack" />
+      <div class="product-title">Laptop Backpack</div>
+      <div class="product-price">₹799</div>
+      <div class="product-rating">★★★☆☆</div>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/51cr-GQotHL._SL1282_.jpg" alt="USB-C Charger" />
+      <div class="product-title">USB-C Charger</div>
+      <div class="product-price">₹699</div>
+      <div class="product-rating">★★★★☆</div>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.hollywoodreporter.com/wp-content/uploads/2021/04/6333841cv13d-1619816927.jpeg" />
+      <div class="product-title">Gaming Mouse</div>
+      <div class="product-price">₹1,199</div>
+      <div class="product-rating">★★★★★</div>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://infonetonline.org/wp-content/uploads/2022/10/1217-000-6019.jpg" />
+      <div class="product-title">64GB Pendrive</div>
+      <div class="product-price">₹449</div>
+      <div class="product-rating">★★★★☆</div>
+      <button>Add to Cart</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
